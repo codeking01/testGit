@@ -1,0 +1,19 @@
+Subject: [PATCH] 修改15.22
+---
+Index: src/main/java/com/codeking/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codeking/Main.java b/src/main/java/com/codeking/Main.java
+--- a/src/main/java/com/codeking/Main.java	(revision 23a36e0778da78512e59b5806a47009ac82538ad)
++++ b/src/main/java/com/codeking/Main.java	(revision c1133ac332534f5b6fd1d6c144fdb8451554447f)
+@@ -23,6 +23,7 @@
+             System.out.println("i = " + i + 5);
+             System.out.println("i = " + i + 5);
+             System.out.println("i = " + i + 5);
++            System.out.println("添加一个补丁");
+         }
+     }
+ }
+\ No newline at end of file
