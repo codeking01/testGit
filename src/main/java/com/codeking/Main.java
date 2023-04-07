@@ -1,9 +1,8 @@
 package com.codeking;
 
 /**
- * @Author：codeking
- * @name：${NAME}
- * @Date：2023/4/7 10:41
+ * @author codeking
+ * @since 2023/4/7 10:41
  */
 // 按两次 Shift 打开“随处搜索”对话框并输入 `show whitespaces`，
 // 然后按 Enter 键。现在，您可以在代码中看到空格字符。
@@ -19,11 +18,11 @@ public class Main {
             // 按 Shift+F9 开始调试代码。我们已为您设置了一个断点，
             // 但您始终可以通过按 Ctrl+F8 添加更多断点。
             System.out.println("i = " + i);
-            System.out.println("i = " + i+5);
-            System.out.println("i = " + i+5);
-            System.out.println("i = " + i+5);
-            System.out.println("i = " + i+5);
-            System.out.println("i = " + i+5);
+            System.out.println("i = " + i + 5);
+            System.out.println("i = " + i + 5);
+            System.out.println("i = " + i + 5);
+            System.out.println("i = " + i + 5);
+            System.out.println("i = " + i + 5);
         }
     }
 }
