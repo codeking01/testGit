@@ -1,0 +1,23 @@
+Subject: [PATCH] 修改
+---
+Index: src/main/java/com/codeking/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/codeking/Main.java b/src/main/java/com/codeking/Main.java
+--- a/src/main/java/com/codeking/Main.java	(revision e68953b794090fba416e163ff09b09eff799f86c)
++++ b/src/main/java/com/codeking/Main.java	(revision a57487e26ddf6889d94f1060c59ff7c349f18967)
+@@ -19,6 +19,11 @@
+             // 按 Shift+F9 开始调试代码。我们已为您设置了一个断点，
+             // 但您始终可以通过按 Ctrl+F8 添加更多断点。
+             System.out.println("i = " + i);
++            System.out.println("i = " + i+5);
++            System.out.println("i = " + i+5);
++            System.out.println("i = " + i+5);
++            System.out.println("i = " + i+5);
++            System.out.println("i = " + i+5);
+         }
+     }
+ }
+\ No newline at end of file
